@@ -16,7 +16,7 @@ import fileUpload from "express-fileupload";
 //-----------------------------------------------> express use
 const app = express();
 app.use(express.json()); // to read json response
-app.use(cors({ origin: "http://localhost:5000" }));
+app.use(cors({ origin: "https://modest-jackson-56b227.netlify.app" }));
 app.use(fileUpload()); // to upload files i.e. images
 
 //-----------------------------------------------> for testing axios
