@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // use to set allowed website to access routes
-app.use(cors({ origin: "https://modest-jackson-56b227.netlify.app" }));
+app.use(cors({ origin: "*" }));
 
 // to read files uploaded from frontend
 app.use(fileUpload());
